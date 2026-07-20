@@ -23,8 +23,8 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Email settings
-$to = "info@primefix.co.za";
-$subject = "New Quotation Request - PrimeFix";
+$to = "info@cmappliancerepairs.co.za";
+$subject = "New Quotation Request - C & M Appliance Repairs";
 
 // Email body
 $body = "
@@ -41,7 +41,7 @@ $message
 ";
 
 // Headers
-$headers = "From: PrimeFix Website <no-reply@primefix.co.za>\r\n";
+$headers = "From: C & M Appliance Repairs Website <no-reply@cmappliancerepairs.co.za>\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8";
 
